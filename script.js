@@ -6,13 +6,6 @@ bars.addEventListener("click",function(){
     list.classList.toggle("show-menu");
     bars.classList.toggle("close");
 })
-scrolls.forEach(function(scroll){
-    console.log(scroll)
-    scroll.addEventListener("cilck", function(e){
-        e.preventDefault();
-        console.log(e.currentTarget)
-    })
-})
 
 
 // search
